@@ -1,10 +1,8 @@
-CREATE TABLE my_first_table(
-    us_name varchar(256),
-    us_surname varchar(256),
-    birth date,
-    pass varchar(300),
-    email varchar(300),
-    sub bool
-);
-INSERT INTO my_first_table VALUES
-('Mukola', 'Dvorskii','2014-03-11','qwerty','mikola123@gmail.com', TRUE);
+-- CREATE TABLE users(
+--     us_name varchar(100) NOT NULL CHECK(us_name != ''),
+--     us_surname varchar(100) NOT NULL,
+--     height numeric(3,2) CONSTRAINt my_name_for_constraint CHECK(height < 5.0)
+-- );
+
+INSERT INTO users (us_name, us_surname, height) VALUES
+('', 'userovch', 4.99);
